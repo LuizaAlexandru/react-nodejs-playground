@@ -1,0 +1,96 @@
+ID: 1
+
+Title: Press the button "Simple" and the products appear in the simplified list
+
+The expected result: The products list appears simplified
+
+The current result: The products list appears simplified
+
+TEST  PASSED
+
+ID: 2
+
+Title: Press the button "Detailed" and the products appears listed with price and other properties
+
+The expected result: The products list appears detailed
+
+The current result: The products list appears detailed
+
+TEST PASSED
+
+
+ID: 3
+
+Title: Verify if the Ascending selector it is functioning
+
+The expected result: The products list is sort in ascending order
+
+The current result: The products list is sort in ascending order
+
+TEST  PASSED
+
+
+ID: 4
+
+Title: Verify if the Descending selector it is functioning
+
+The expected result: The products list is sort in descending order
+
+The current result: The products list is sort in descending order
+
+TEST  PASSED
+
+
+ID: 5
+
+Title: Verify if the Search it is functional
+
+The expected result: Appear the product you are looking for
+
+The current result: Appear the product you are looking for
+
+TEST PASSED
+
+
+ID: 6
+
+Title: Verify if the Search can return empty list of products
+
+The expected result: Appear the message "List is empty"
+
+The current result: Appear the message "List is empty"
+
+TEST PASSED
+
+
+ID: 7
+
+Title: Press the button "Add to Wishlist" and add the product to wishlist
+
+The expected result: Should appear a modal component that confirm the adding of the product in the Wishlist
+
+The current result: An error  modal component appears, which does not explain the error
+
+TEST Failed
+
+
+ID: 8
+
+Title: Go to tab Profile
+
+The expected result: It is opened Profile tab
+
+The current result: It is opened Profile tab
+
+TEST PASSED
+
+
+ID: 9
+
+Title: Go to tab Tabs component
+
+The expected result: It is opened Tabs component tab
+
+The current result: It is opened Tabs component tab
+
+TEST PASSED

@@ -1,0 +1,18 @@
+Bug report 1 is found with rolling the test case 7
+
+1) Bug Number/id: 7
+2) Bug Title: Error appears when the button "Add to Wishlist" is  pressed
+3) Priority: medium
+4) Platform/Environment: Google Chrome
+5) Description: When the user wants to add a product to his Wishlist and he presses the button "Add to Wishlist", a modal component which contains an warning icon appears.
+6) Steps to Reproduce:
+    1 Open Google Chrome
+    2 Go to page "http://localhost:3000/"
+    1 Verify if the page is "Featured Products"
+    2 The selected tab must be the Products tab
+    3 Select any product you want
+    4 Press the button "Add to Wishlist"
+7) Expected Result: Appear a modal component that confirm the adding of the product in the Wishlist.
+   Actual Result: A modal component appears, with a warning icon without any text, which does not explain the error.
+8) [Image: ./Images/ButtonAddWishlist.png]
+9) A 404 error is present in the console.

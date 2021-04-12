@@ -1,0 +1,9 @@
+1. General information's about the project: we have this info.
+2. Requirements: obtained with details.
+3. Define test cases for functional testing of front-end components: In Process.
+4. Run test cases.
+5. Create Report.
+6. Define test cases for back-end API.
+7. Run test cases for back-end.
+8. Create Report.
+

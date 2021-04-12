@@ -1,0 +1,143 @@
+Test Case 1
+
+ID: 1
+
+Title: Press the "Simple" button and the products appear in the simplified list
+
+Preconditions: Go to page "Featured Products" of the site React Playground
+
+Steps to perform the test:
+ 1 Verify if the page is "Featured Products".
+ 2 It is needed to be selected the Products tab.
+ 3 Check that the "Detailed" text is present on the button that changes view mode.
+ 4 If isn't present and appears the text "Simple", press this button and the view mode changes in "Simple".
+
+The expected result: The products list appears simplified
+
+
+Test Case 2
+
+ID: 2
+
+Title: Press the button "Detailed" and the products appears listed with price and other properties
+
+Preconditions: Go to page "Featured Products" of the site React Playground
+
+Steps to perform the test:
+ 1 Verify if the page is "Featured Products"
+ 2 It is needed to be selected the Products tab
+ 3 Check that the "Simple" text is present on the button that changes view mode.
+ 4 If isn't present and appears the text "Detailed", press this button and the view mode changes in "Detailed".
+
+The expected result: The products list appears detailed
+
+
+Test Case 3
+
+ID: 3
+
+Title: Verify if the Ascending selector it is functioning
+
+Preconditions: Go to page "Featured Products" of the site React Playground
+
+Steps to perform the test:
+ 1 Verify if the page is "Featured Products"
+ 2 It is needed to be selected the Products tab
+ 3 Go to select dropdown and choose the Ascending type of sort
+
+The expected result: The products list is sorted in ascending order
+
+
+Test Case 4
+
+ID: 4
+
+Title: Verify if the Descending selector it is functioning
+
+Preconditions: Go to page "Featured Products" of the site React Playground
+
+Steps to perform the test:
+ 1 Verify if the page is "Featured Products"
+ 2 It is needed to be selected the Products tab
+ 3 Go to select dropdown and choose the Descending type of sort
+
+The expected result: The products list is sorted in descending order
+
+
+Test Case 5
+
+ID: 5
+
+Title: Verify if the Search it is functional
+
+Preconditions: Go to page "Featured Products" of the site React Playground
+
+Steps to perform the test:
+ 1 Verify if the page is "Featured Products"
+ 2 It is needed to be selected the Products tab
+ 3 Go to Search field and write a product name from the product list
+
+The expected result: Appear the product you are looking for
+
+
+Test Case 6
+
+ID: 6
+
+Title: Verify if the Search can return empty list of products
+
+Preconditions: Go to page "Featured Products" of the site React Playground
+
+Steps to perform the test:
+ 1 Verify if the page is "Featured Products"
+ 2 It is needed to be selected the Products tab
+ 3 Go to Search field and write the name of a product that is not in the product list
+
+The expected result: Appear the message "List is empty"
+
+
+Test Case 7
+
+ID: 7
+
+Title: Press the button "Add to Wishlist" and add the product to wishlist
+
+Preconditions: Go to page "Featured Products" of the site React Playground
+
+Steps to perform the test:
+ 1 Verify if the page is "Featured Products"
+ 2 The selected tab must be the Products tab
+ 3 Select any product you want
+ 4 Press the button "Add to Wishlist"
+
+The expected result: Should appear a modal component that confirm the adding of the product in the Wishlist
+
+
+Test Case 8
+
+ID: 8
+
+Title: Go to tab Profile
+
+Preconditions: Go to page "Featured Products" of the site React Playground
+
+Steps to perform the test:
+ 1 Verify if the page is "Featured Products"
+ 2 It is needed to be selected the Profile tab
+
+The expected result: It is opened Profile tab
+
+
+Test Case 9
+
+ID: 9
+
+Title: Go to tab Tabs component
+
+Preconditions: Go to page "Featured Products" of the site React Playground
+
+Steps to perform the test:
+ 1 Verify if the page is "Featured Products"
+ 2 It is needed to be selected the Tabs component tab
+
+The expected result: It is opened Tabs component tab
