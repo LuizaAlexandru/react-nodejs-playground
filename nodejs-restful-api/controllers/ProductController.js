@@ -59,9 +59,10 @@ router.put('/:id', (req, res) => {
   });
 });
 
-// // child Electronic schema.
-const options = { discriminatorKey: 'type' },
-  ElectronicProduct = Product.discriminator('Electronic', new mongoose.Schema({ power: Number }, options));
+// child Electronic schema.
+
+// const options = { discriminatorKey: 'type' },
+// ElectronicProduct = Product.discriminator('Electronic', new mongoose.Schema({ power: Number }, options));
 
 // const computer1 = new ElectronicProduct({ name: 'Acer Laptop x100na', price: { currency: "eur", amount: 300}, power: 500, images:[{
 // src: '../demo_imgs/acer_laptop.jpg', alt: 'Acer Laptop x100na'}] });
