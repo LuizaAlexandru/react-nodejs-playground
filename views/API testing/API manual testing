@@ -1,0 +1,121 @@
+Test case 1
+
+Title: Get all products
+
+Steps to perform the test:
+
+1. URL page: localhost:7070/products
+2. Set the "Get" method
+3. Push the button Send
+
+The expected result: The list with the products is returned.
+
+Test case 2
+
+Title: Get product by ID
+
+Steps to perform the test:
+1. URL page: localhost:7070/products/:id
+2. Set the "Get" method
+3. Push the button Send
+
+The expected result: The product with :ID is returned.
+
+Test case 3
+
+Title: Delete product by ID
+
+Steps to perform the test:
+1. URL page: localhost:7070/products/:id
+2. Set the "Delete" method
+3. Push the button Send
+
+The expected result: The product with :ID is deleted.
+
+Test case 4
+
+Title: Utilise Put to update details of product
+
+Steps to perform the test:
+
+1. URL page: localhost:7070/products/:id
+2. Set the "Put" method
+3. With JSON Body object : {
+                              "name": "Red Sport t-shirt",
+                              "type": "Clothing",
+                              "size": "Medium"
+                             }
+
+The expected result: The product with :ID is updated.
+
+Test case 5
+
+Title: Get all departments
+
+Steps to perform the test:
+
+1. URL page: localhost:7070/departments
+2. Set the "Get" method
+3. Push the button Send
+
+The expected result: The list with the departments is returned.
+
+Test case 6
+
+Title: Get department by ID
+
+Steps to perform the test:
+
+1. URL page: localhost:7070/departments/:id
+2. Set the "Get" method
+3. Push the button Send
+
+The expected result: The department with :ID is returned.
+
+Test case 7
+
+Title: Create new department with POST
+
+Steps to perform the test:
+
+1. URL page: localhost:7070/departments/
+2. Set the "POST" method
+3. With JSON Body object :{
+                          "name": "Garden",
+                          "abbreviation": "Gard",
+                          "description": "The zone where you will find all kind of garden equipments"
+                          }
+3. Push the button Send
+
+The expected result: The department  is created.
+
+Test case 8
+
+Title: Delete department by ID (ID obtained from created department)
+
+Steps to perform the test:
+1. URL page: localhost:7070/departments/:id
+2. Set the "Delete" method
+3. Push the button Send
+
+The expected result: The department is deleted.
+
+Test case 9
+
+Title: Utilise PUT for update details of department
+
+Steps to perform the test:
+
+1. URL page: localhost:7070/departments/:id
+2. Set the "Put" method
+3. With JSON Body object : {
+                           "name": "Electronics",
+                           "abbreviation": "Elect",
+                           "description": "The zone where you will find all kind of electric performant equipments."
+                           }
+
+The expected result: The product with  :ID is updated.
+
+
+
+Example ":id" can be "605c5ad1a4894716ec8a7db8".
