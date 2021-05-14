@@ -42,8 +42,20 @@ Steps to perform the test:
 2. Set the "Put" method
 3. With JSON Body object : {
                               "name": "Red Sport t-shirt",
+                              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                              "price": {
+                                           "amount": 35,
+                                           "currency": "eur"
+                                         },
                               "type": "Clothing",
-                              "size": "Medium"
+                              "size": "Medium",
+                              "images": [{
+                                        "src": "./imgs/ProductImageSample.jpg",
+                                        "alt": "Red Sport t-shirt"
+                                        },
+                                        {"src": 'http://via.placeholder.com/300x250',
+                                         "alt":'laguna shirt experience'
+                                        }]
                              }
 
 The expected result: The product with :ID is updated.
