@@ -1,45 +1,45 @@
 Test case 1
 
-Title: Get all products
+Title: GET all products
 
 Steps to perform the test:
 
 1. URL page: localhost:7070/products
-2. Set the "Get" method
+2. Set the GET method
 3. Push the button Send
 
 The expected result: The list with the products is returned.
 
 Test case 2
 
-Title: Get product by ID
+Title: GET product by ID
 
 Steps to perform the test:
 1. URL page: localhost:7070/products/:id
-2. Set the "Get" method
+2. Set the GET method
 3. Push the button Send
 
 The expected result: The product with :ID is returned.
 
 Test case 3
 
-Title: Delete product by ID
+Title: DELETE product by ID
 
 Steps to perform the test:
 1. URL page: localhost:7070/products/:id
-2. Set the "Delete" method
+2. Set the DELETE method
 3. Push the button Send
 
 The expected result: The product with :ID is deleted.
 
 Test case 4
 
-Title: Utilise Put to update details of product
+Title: Utilise PUT to update details of product
 
 Steps to perform the test:
 
 1. URL page: localhost:7070/products/:id
-2. Set the "Put" method
+2. Set the PUT method
 3. With JSON Body object : {
                               "name": "Red Sport t-shirt",
                               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -62,24 +62,24 @@ The expected result: The product with :ID is updated.
 
 Test case 5
 
-Title: Get all departments
+Title: GET all departments
 
 Steps to perform the test:
 
 1. URL page: localhost:7070/departments
-2. Set the "Get" method
+2. Set the GET method
 3. Push the button Send
 
 The expected result: The list with the departments is returned.
 
 Test case 6
 
-Title: Get department by ID
+Title: GET department by ID
 
 Steps to perform the test:
 
 1. URL page: localhost:7070/departments/:id
-2. Set the "Get" method
+2. Set the GET method
 3. Push the button Send
 
 The expected result: The department with :ID is returned.
@@ -91,7 +91,7 @@ Title: Create new department with POST
 Steps to perform the test:
 
 1. URL page: localhost:7070/departments/
-2. Set the "POST" method
+2. Set the POST method
 3. With JSON Body object :{
                           "name": "Garden",
                           "abbreviation": "Gard",
@@ -103,11 +103,11 @@ The expected result: The department  is created.
 
 Test case 8
 
-Title: Delete department by ID (ID obtained from created department)
+Title: DELETE department by ID (ID obtained from created department)
 
 Steps to perform the test:
 1. URL page: localhost:7070/departments/:id
-2. Set the "Delete" method
+2. Set the DELETE method
 3. Push the button Send
 
 The expected result: The department is deleted.
@@ -119,7 +119,7 @@ Title: Utilise PUT for update details of department
 Steps to perform the test:
 
 1. URL page: localhost:7070/departments/:id
-2. Set the "Put" method
+2. Set the PUT method
 3. With JSON Body object : {
                            "name": "Electronics",
                            "abbreviation": "Elect",
